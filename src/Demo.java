@@ -1,6 +1,8 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.sql.SQLOutput;
+
 public class Demo {
 
     public static void main(String[] args){
@@ -9,6 +11,7 @@ public class Demo {
         WebDriver driver = new ChromeDriver();
 
         driver.get("http://google.com");
+        System.out.println(driver.getTitle());
 
 
 
